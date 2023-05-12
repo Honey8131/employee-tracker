@@ -1,10 +1,10 @@
 DROP DATABASE IF EXISTS employees_DB;
-CREATE database employees_DB;
+CREATE DATABASE employees_DB;
 
 USE employees_DB;
 
 CREATE TABLE Departments (
-    department_id INTO NOT NULL AUTO_INCREMENT,
+    department_id INT NOT NULL AUTO_INCREMENT,
     department_name VARCHAR(30) NULL,
     PRIMARY KEY (department_id)
 );
@@ -19,7 +19,7 @@ CREATE TABLE Roles (
 );
 
 CREATE TABLE Employees (
-    id INTO NOT NULL AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30) NULL,
     last_name VARCHAR(30) NULL,
     role_id INT NULL,

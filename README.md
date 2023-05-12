@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/Honey8131/employee-tracker.svg)](https://github.com/Honey8131/employee-tracker/issues)
 
-
+![demo](/assets/demo.gif)
 ## Description
 
 The SQL Challenge: Employee Tracker is a command-line application built with Node.js, Inquirer, and MySQL. It allows users to efficiently manage a company's employee database by providing options to view departments, roles, and employees, as well as add new departments, roles, employees, and update employee roles.
